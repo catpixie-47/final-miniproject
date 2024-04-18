@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musicom - Your Musical Journey</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  </style>
+ 
+</head>
+
+  <!-- Navigation Bar -->
+  <nav class="bg-black text-white py-4">
+    <div class="container mx-auto flex justify-between items-center px-4">
+      <a href="#" class="text-2xl font-bold flex items-center">
+      <div class="circular-frame">
+    <img src="c:/miniproject images/logo.jpg" alt="Image Description" width="60" >
+</div>
+
+        Musicom
+      </a>
+      <ul class="flex space-x-4">
+        <input type="text" id="searchBar" placeholder="Search...">
+        <li><a href="#" class="hover:text-gray-300"> <img src="c:/miniproject images/home.jpg" alt="home" width="50" height="60"> </a></li>
+        <li><a href="file:///C:/miniproject%20images/aboutpage.html" class="hover:text-gray-300"> <img src="c:/miniproject images/about.jpg" alt="about" width="40" height="40"></a></li>
+        <li><a href="file:///C:/miniproject%20images/un.html" class="hover:text-gray-300"><img src="c:/miniproject images/shop.jpg" alt="shop" width="40" height="40"></a></li>
+        <li><a href="file:///C:/miniproject%20images/contact.html" class="hover:text-gray-300"><img src="c:/miniproject images/contact.jpg" alt="contact" width="40" height="40"></a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-r from-purple-500 to-blue-500 text-white py-24 px-4">
+    <div class="container mx-auto text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Welcome to Musicom</h1>
+      <p class="text-lg md:text-xl mb-8">Your Musical Journey Begins Here! </p>
+      <a href="file:///C:/miniproject%20images/un.html" class="bg-white text-black py-2 px-6 rounded-lg hover:bg-gray-300 transition duration-300">Shop Now</a>
+      <p> ... </p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slideshow</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .slide {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .active {
+      display: block;
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100">
+  <div class="relative h-64 md:h-96">
+    <img src="c:/miniproject images/slide1.jpg" alt="Slide 1" class="slide active">
+    <img src="c:/miniproject images/slide2.jpg" alt="Slide 2" class="slide">
+    <img src="c:/miniproject images/slide3.jpg" alt="Slide 3" class="slide">
+  </div>
+
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+    setInterval(() => {
+      slides[currentSlide].classList.remove('active');
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add('active');
+    }, 3000);
+  </script>
+</body>
+
+</html>
+
+ </div>
+  </section>
+
+  <!-- Featured Content -->
+  <section class="py-12 px-4">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Featured Content</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Featured Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="text-xl font-bold mb-2">40-point Inspection</h3>
+          <p class="text-gray-700">All instrument rentals are educator-approved, play-tested, and examined with Sweetwater's Band and Orchestra 40-point Inspection, making sure that every facet of the instrument is in perfect condition before you receive it. Plus, our enhanced premium rental fleet gives you access to upgraded cases, bows, strings, and mouthpieces.</p>
+        </div>
+        <!-- Featured Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="text-xl font-bold mb-2">Rental Instrument Protection Plan</h3>
+          <p class="text-gray-700">Keep nonplaying time to a minimum! With Sweetwater's revolutionary Rental Instrument Protection Plan, when you tell us you need a repair or replacement, you will get an exchanged instrument with return box and post shipped out immediately.</p>
+        </div>
+        <!-- Featured Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg p-6">
+          <h3 class="text-xl font-bold mb-2">Worry-free returns</h3>
+          <p class="text-gray-700">If you decide to return the instrument, you will only be charged for the time you have it until it arrives back at Sweetwater, with no hassle, no obligation, and no hidden fees or minimum rental terms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-white py-8">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Musicom. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
+ <img src="c:\miniproject images\logo.jpg" alt="Musicom Logo" class="h-8 mr-2" width="70" height="80"> 
